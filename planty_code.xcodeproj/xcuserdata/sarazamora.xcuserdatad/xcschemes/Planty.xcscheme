@@ -17,7 +17,7 @@
                BlueprintIdentifier = "A58130741D4804DA0049B859"
                BuildableName = "Planty.app"
                BlueprintName = "Planty"
-               ReferencedContainer = "container:Planty.xcodeproj">
+               ReferencedContainer = "container:planty_code.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "A58130881D4804DB0049B859"
                BuildableName = "PlantyTests.xctest"
                BlueprintName = "PlantyTests"
-               ReferencedContainer = "container:Planty.xcodeproj">
+               ReferencedContainer = "container:planty_code.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "A58130931D4804DB0049B859"
                BuildableName = "PlantyUITests.xctest"
                BlueprintName = "PlantyUITests"
-               ReferencedContainer = "container:Planty.xcodeproj">
+               ReferencedContainer = "container:planty_code.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "A58130741D4804DA0049B859"
             BuildableName = "Planty.app"
             BlueprintName = "Planty"
-            ReferencedContainer = "container:Planty.xcodeproj">
+            ReferencedContainer = "container:planty_code.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "A58130741D4804DA0049B859"
             BuildableName = "Planty.app"
             BlueprintName = "Planty"
-            ReferencedContainer = "container:Planty.xcodeproj">
+            ReferencedContainer = "container:planty_code.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "A58130741D4804DA0049B859"
             BuildableName = "Planty.app"
             BlueprintName = "Planty"
-            ReferencedContainer = "container:Planty.xcodeproj">
+            ReferencedContainer = "container:planty_code.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

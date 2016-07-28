@@ -8,7 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UIImagePickerControllerDelegate,
+    UINavigationControllerDelegate {
+    
+        @IBOutlet weak var imagePicked: UIImageView!
+    
+    @IBAction func PictureButton(sender: UIButton) {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.Camera;
+            imagePicker.allowsEditing = false
+            self.presentViewController(imagePicker, animated: true, completion: nil)
+        }
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +33,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
 
 }
+
+
 
