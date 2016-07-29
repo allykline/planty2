@@ -17,33 +17,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="planty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRE-bf-jtn">
-                                <rect key="frame" x="69" y="36" width="174" height="79"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="58"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Ncg-rX-nWd">
-                                <rect key="frame" x="238" y="49" width="54" height="54"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEi-GM-fCB">
-                                <rect key="frame" x="70" y="294" width="172" height="46"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="31"/>
-                                <state key="normal" title="Learn More">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gih-1b-M9f" kind="show" identifier="Learn More" id="IoZ-yP-wht"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qu-LH-rcL">
-                                <rect key="frame" x="77" y="217" width="166" height="48"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="31"/>
-                                <state key="normal" title="Take Photo">
+                                <rect key="frame" x="0.0" y="163" width="320" height="137"/>
+                                <color key="backgroundColor" red="0.2751630492240329" green="0.45917467948717938" blue="0.15144056020939003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="33"/>
+                                <state key="normal" title="take photo">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="PictureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tM7-sr-rrM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="planty" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRE-bf-jtn">
+                                <rect key="frame" x="0.0" y="28" width="320" height="135"/>
+                                <color key="backgroundColor" red="0.19249082284865504" green="0.3229567308128205" blue="0.16317102347561657" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.010957230913291816" green="1" blue="0.11008419086673493" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Thin" family="PingFang HK" pointSize="66"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.93962384224742912" green="1" blue="0.98499047547358076" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Ncg-rX-nWd">
+                                <rect key="frame" x="234" y="64" width="66" height="58"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bt5-N0-pKI">
+                                <rect key="frame" x="0.0" y="430" width="320" height="138"/>
+                                <color key="backgroundColor" red="0.51900402533265655" green="0.7002485652153847" blue="0.38205010389907662" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="33"/>
+                                <state key="normal" title="how to use"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEi-GM-fCB">
+                                <rect key="frame" x="0.0" y="294" width="320" height="136"/>
+                                <color key="backgroundColor" red="0.35200824895297222" green="0.5" blue="0.2424546641250469" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="33"/>
+                                <state key="normal" title="learn more">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gih-1b-M9f" kind="show" identifier="Learn More" id="IoZ-yP-wht"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -74,10 +85,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2288" translatesAutoresizingMaskIntoConstraints="NO" id="NzJ-4N-yyR">
-                                <rect key="frame" x="30" y="138" width="260" height="241"/>
+                                <rect key="frame" x="30" y="139" width="260" height="241"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi8-r3-NLa">
-                                <rect key="frame" x="8" y="20" width="63" height="30"/>
+                                <rect key="frame" x="6" y="37" width="63" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -87,7 +98,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.9204024869109948" green="0.79520672884419363" blue="0.80274278392380072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.61172693060000005" green="0.60238317080000003" blue="0.40469226930000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
